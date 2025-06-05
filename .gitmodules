@@ -1,0 +1,3 @@
+[submodule "preprocess/DPT"]
+	path = preprocess/DPT
+	url = https://github.com/wrld/UC-NeRF_anonymous.git

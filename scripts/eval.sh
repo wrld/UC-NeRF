@@ -1,0 +1,11 @@
+CUDA_VISIBLE_DEVICES=0 python train.py \
+   --expname scared_eval \
+   --use_viewdirs True \
+   --dataset_name scared \
+   --datadir <your_scared_data_folder> \
+   --view_num 7 \
+   --num_epochs 30 \
+   --patch_size 6 \
+   --patch_num 50 \
+   --eval \
+   --ckpt ./pretrained_weights/ucnerf.tar

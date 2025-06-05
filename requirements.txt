@@ -1,0 +1,15 @@
+torchmetrics>=1.0.1
+torchviz>=0.0.2
+pytorch-lightning>=2.0.6
+torch-scatter>=2.1.2
+imageio>=2.31.1
+imageio-ffmpeg>=0.4.8
+Pillow>=10.0.0
+scikit-image>=0.21.0
+opencv-python>=4.8.0.74
+ConfigArgParse>=1.5.5
+lpips>=0.1.4
+kornia>=0.6.12
+matplotlib>=3.7.2
+wandb>=0.15.7
+warmup-scheduler>=0.3
