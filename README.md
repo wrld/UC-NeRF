@@ -48,8 +48,7 @@ python preprocess/DPT/run_monodepth.py -i <your_scene_folder>
 ```
 You can find the generated monocular depth under `<your_scene_folder>/dpt/`.
 ## Evaluation
-- To reproduce the experiment result, download our pretrained model [here](https://drive.google.com/drive/folders/1dsBNQpwmgW85yNeinwsbm2TuDr-F0Pr-?usp=sharing), and put in the [pretrained folder](./pretrain/).  
-- Run the command for evaluation:
+- Our pretrained model is included in the folder `pretrained_weights`. To reproduce the experiment result, please run the command for evaluation:
 ```
 sh scripts/eval.sh
 ```
